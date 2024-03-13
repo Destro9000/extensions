@@ -1,10 +1,10 @@
--- {"id":6118,"ver":"2.0.9","libVer":"1.0.0","author":"TechnoJo4","dep":["url>=1.0.0"]}
+-- {"id":6118,"ver":"2.1.0","libVer":"1.0.0","author":"TechnoJo4","dep":["url>=1.0.0"]}
 
-local baseURL = "https://www.readlightnovel.me"
+local baseURL = "https://www.readlightnovel.today"
 local qs = Require("url").querystring
  
 local function shrinkURL(url)
-	return url:gsub(".-readlightnovel%.me", "")
+	return url:gsub(".-readlightnovel%.today", "")
 end
 
 local function expandURL(url)
