@@ -22,11 +22,11 @@
     },
     {
       "name": "WWVolare",
-      "ver": "1.2.1"
+      "ver": "1.2.2"
     },
     {
       "name": "Madara",
-      "ver": "2.4.0"
+      "ver": "2.9.0"
     }
   ],
   "scripts": [
@@ -51,10 +51,200 @@
       "md5": "c5977c9ba48c5115426fb3010cc65894"
     },
     {
+      "name": "Quotev",
+      "fileName": "Quotev",
+      "imageURL": "https://i.quotev.com/q/qmz192.png",
+      "id": 95552,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Genesis Translations",
+      "fileName": "Genesistls",
+      "imageURL": "https://genesistls.com/wp-content/uploads/2022/04/logo.png",
+      "id": 95555,
+      "lang": "en",
+      "ver": "1.0.3",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Read From Net",
+      "fileName": "ReadFromNet",
+      "imageURL": "https://static.readfrom.net//templates/gray_search/images/logo41.png",
+      "id": 95562,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Comrademao",
+      "fileName": "Comrademao",
+      "imageURL": "https://i.imgur.com/N6KcMJ4.png",
+      "id": 95563,
+      "lang": "all",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Novelusb",
+      "fileName": "Novelusb",
+      "imageURL": "https://i.imgur.com/hq3eeIM.png",
+      "id": 95564,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Honeyfeed",
+      "fileName": "Honeyfeed",
+      "imageURL": "https://www.honeyfeed.fm/assets/main/pages/home/logo-honey-bomon-70595250eae88d365db99bd83ecdc51c917f32478fa535a6b3b6cffb9357c1b4.png",
+      "id": 95565,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "NovelBuddy",
+      "fileName": "Novelbuddy",
+      "imageURL": "https://novelbuddy.com/static/sites/novelbuddy/icons/apple-touch-icon.png",
+      "id": 95566,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "NobleMTL",
+      "fileName": "NobleMTL",
+      "imageURL": "https://i1.wp.com/noblemtl.com/wp-content/uploads/2022/07/cropped-Noble-270x270.png",
+      "id": 95567,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "MTLNation",
+      "fileName": "MTLNation",
+      "imageURL": "https://i.imgur.com/jmwgTRw.png",
+      "id": 95568,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "KoreanMTL",
+      "fileName": "KoreanMTL",
+      "imageURL": "https://i.imgur.com/Zsvoiom.png",
+      "id": 95569,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Novelhall",
+      "fileName": "Novelhall",
+      "imageURL": "https://www.novelhall.com/statics/default/images/logo.b5b4c.png",
+      "id": 95570,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "KnoxT",
+      "fileName": "KnoxT",
+      "imageURL": "https://knoxt.space/wp-content/uploads/2021/06/knoxtlight.jpg",
+      "id": 95571,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Wattpad",
+      "fileName": "Wattpad",
+      "imageURL": "https://cdn-icons-png.flaticon.com/512/2111/2111715.png",
+      "id": 95556,
+      "lang": "en",
+      "ver": "1.0.5",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Neovel",
+      "fileName": "Neovel",
+      "imageURL": "https://neovel.io/apple-touch-icon.png",
+      "id": 95557,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "PawRead",
+      "fileName": "Pawread",
+      "imageURL": "https://res.pawread.com/images/logo/dmzj-phone.png",
+      "id": 95560,
+      "lang": "en",
+      "ver": "1.0.1",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
       "name": "Central Novel",
       "fileName": "CentralNovel",
       "id": 227675,
       "imageURL": "https://centralnovel.com/wp-content/uploads/2021/06/CENTRAL-NOVEL-LOGO-DARK-.png",
+      "lang": "pt",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    }, 
+    {
+      "name": "Light Novels Brasil",
+      "fileName": "LightNovelsBrasil",
+      "id": 172007,
+      "imageURL": "https://lightnovelbrasil.com/wp-content/uploads/2022/11/cropped-logo.png",
+      "lang": "pt",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Kiniga",
+      "fileName": "Kiniga",
+      "imageURL": "https://www.kiniga.com/wp-content/uploads/2017/10/New-Logo-Inv-150px.png",
+      "id": 172006,
+      "lang": "pt",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "E-Novel",
+      "fileName": "E-Novel",
+      "imageURL": "https://e-novel.online/wp-content/uploads/2021/06/logo-novela.fw_.png",
+      "id": 172008,
+      "lang": "pt",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "BL Novels",
+      "fileName": "BLNovels",
+      "imageURL": "https://blnovels.net/wp-content/uploads/2022/07/cropped-100-Sem-Ti%CC%81tulo_20220712124716-192x192.png",
+      "id": 172002,
       "lang": "pt",
       "ver": "1.0.0",
       "libVer": "1.0.0",
@@ -79,6 +269,16 @@
       "ver": "2.0.1",
       "libVer": "1.0.0",
       "md5": "ad8a6211419b89c1c9bda5d6cd07e19e"
+    },
+    {
+      "name": "Novelr18",
+      "fileName": "NovelR18",
+      "imageURL": "https://novelr18.com/wp-content/uploads/2017/10/logo_-1.png",
+      "id": 95561,
+      "lang": "en",
+      "ver": "1.0.1",
+      "libVer": "1.0.0",
+      "md5": ""
     },
     {
       "name": "VipNovel",
@@ -151,16 +351,6 @@
       "md5": "d2edddc58222392b59ed34b73e25d6b2"
     },
     {
-      "name": "NovelHard",
-      "fileName": "NovelTrench",
-      "imageURL": "https://novelhard.com/wp-content/uploads/2019/08/novelhard.com_-1.png",
-      "id": 81,
-      "lang": "en",
-      "ver": "2.1.3",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
       "name": "WoopRead",
       "fileName": "Woopread",
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/WoopRead.png",
@@ -191,40 +381,10 @@
       "md5": ""
     },
     {
-      "name": "Reaper Scans",
-      "fileName": "ReaperScans",
-      "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/ReaperScans.png",
-      "id": 4223,
-      "lang": "en",
-      "ver": "1.0.4",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
-      "name": "Eternal Translation",
-      "fileName": "EternalTranslation",
-      "imageURL": "http://github.com/shosetsuorg/extensions/raw/dev/icons/EternalTranslation.png",
-      "id": 4224,
-      "lang": "en",
-      "ver": "1.0.3",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
       "name": "ZinNovel",
       "fileName": "ZinNovel",
       "imageURL": "http://github.com/shosetsuorg/extensions/raw/dev/icons/ZinNovel.png",
       "id": 4225,
-      "lang": "en",
-      "ver": "1.0.3",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
-      "name": "Wonpress",
-      "fileName": "Wonpress",
-      "imageURL": "http://github.com/shosetsuorg/extensions/raw/dev/icons/Wonpress.png",
-      "id": 4226,
       "lang": "en",
       "ver": "1.0.3",
       "libVer": "1.0.0",
@@ -241,32 +401,12 @@
       "md5": ""
     },
     {
-      "name": "Pink Muffin TL",
-      "fileName": "PinkMuffinTL",
-      "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/PinkMuffinTL.png",
-      "id": 4301,
-      "lang": "en",
-      "ver": "1.1.2",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
       "name": "Travis Translations",
       "fileName": "TravisTranslations",
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/TravisTranslations.png",
       "id": 4302,
       "lang": "en",
-      "ver": "1.0.14",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
-      "name": "Mylovenovel",
-      "fileName": "Mylovenovel",
-      "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/Mylovenovel.png",
-      "id": 4303,
-      "lang": "en",
-      "ver": "1.1.3",
+      "ver": "1.0.15",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -276,7 +416,7 @@
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/Readhive.png",
       "id": 4304,
       "lang": "en",
-      "ver": "1.0.2",
+      "ver": "1.2.0",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -296,7 +436,7 @@
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/ArNovel.png",
       "id": 4500,
       "lang": "ar",
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -306,7 +446,7 @@
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/TeamXNovel.png",
       "id": 4501,
       "lang": "ar",
-      "ver": "1.0.1",
+      "ver": "1.0.4",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -341,6 +481,16 @@
       "md5": "6e3dd280e11a4ba1b3dcf7f67b917e81"
     },
     {
+      "name": "Light Novel Pub",
+      "fileName": "LightNovelPub",
+      "imageURL": "https://gitlab.com/shosetsuorg/extensions/-/raw/dev/icons/LightNovelPub.png",
+      "id": 31,
+      "lang": "en",
+      "ver": "1.0.1",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
       "name": "wuxia.blog",
       "fileName": "WuxiaDotBlog",
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/WuxiaDotBlog.png",
@@ -351,22 +501,12 @@
       "md5": "c4a2b8bfb6e6103ad0c8615fb6602bbe"
     },
     {
-      "name": "KobatoChanDaiSuki",
-      "fileName": "KobatoChan",
-      "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/KobatoChan.png",
-      "id": 74485,
-      "lang": "en",
-      "ver": "1.1.1",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
       "name": "ScribbleHub",
       "fileName": "ScribbleHub",
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/ScribbleHub.png",
       "id": 86802,
       "lang": "en",
-      "ver": "1.0.2",
+      "ver": "1.0.4",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -376,7 +516,7 @@
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/RoyalRoad.png",
       "id": 36833,
       "lang": "en",
-      "ver": "1.0.13",
+      "ver": "1.0.15",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -386,7 +526,7 @@
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/AsianHobbyist.png",
       "id": 951,
       "lang": "en",
-      "ver": "2.0.4",
+      "ver": "2.0.5",
       "libVer": "1.0.0",
       "md5": "16348946cb5981a279d80b5f34ffe505"
     },
@@ -403,10 +543,10 @@
     {
       "name": "Novel Nb",
       "fileName": "NovelNb",
-      "imageURL": "https://novelnb.com/assets/css/img/logo.png",
+      "imageURL": "https://novelnb.net/assets/css/img/logo.png",
       "id": 1781,
       "lang": "en",
-      "ver": "1.0.1",
+      "ver": "1.0.6",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -416,7 +556,17 @@
       "imageURL": "https://asuralightnovel.com/wp-content/uploads/2017/10/asura-light-novel-logo-4-e1627846850601.png",
       "id": 1783,
       "lang": "en",
-      "ver": "1.0.0",
+      "ver": "1.0.3",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Read Light Novel.app",
+      "fileName": "LightNovelReader",
+      "imageURL": "https://readlightnovel.online/assets/new/images/lnrlogo.png",
+      "id": 1784,
+      "lang": "en",
+      "ver": "1.0.5",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -426,7 +576,7 @@
       "imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/RewayatClub.png",
       "id": 3302,
       "lang": "ar",
-      "ver": "1.0.1",
+      "ver": "1.0.2",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -456,7 +606,7 @@
       "imageURL": "https://zetrotranslation.com/wp-content/uploads/2020/12/logo_red-e1607700845220.png",
       "id": 428270,
       "lang": "en",
-      "ver": "1.0.0",
+      "ver": "1.0.1",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -465,6 +615,16 @@
       "fileName": "MoreNovel",
       "imageURL": "https://morenovel.net/wp-content/uploads/2019/04/morenovel-1.png",
       "id": 823465,
+      "lang": "ind",
+      "ver": "1.0.1",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "MeioNovel",
+      "fileName": "Meionovel",
+      "imageURL": "https://meionovel.id/wp-content/uploads/2017/10/sampul-meio111-1.png",
+      "id": 923826,
       "lang": "ind",
       "ver": "1.0.0",
       "libVer": "1.0.0",
@@ -477,26 +637,6 @@
       "id": 8323,
       "lang": "en",
       "ver": "1.0.0",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
-      "name": "LatestNovel",
-      "fileName": "Latestnovel",
-      "imageURL": "https://latestnovel.net/wp-content/themes/madara/images/logo.png",
-      "id": 2672381,
-      "lang": "en",
-      "ver": "1.0.0",
-      "libVer": "1.0.0",
-      "md5": ""
-    },
-    {
-      "name": "Novel Team",
-      "fileName": "Novelteam",
-      "imageURL": "https://novelteam.net/wp-content/themes/madara/images/logo.png",
-      "id": 724098,
-      "lang": "en",
-      "ver": "1.0.1",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -546,7 +686,7 @@
       "imageURL": "https://ranobelib.me/icons/android-icon-192x192.png",
       "id": 73,
       "lang": "ru",
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "libVer": "1.0.0",
       "md5": ""
     },
@@ -556,21 +696,41 @@
       "imageURL": "https://jaomix.ru/wp-content/uploads/2019/08/cropped-logo-2.png",
       "id": 74,
       "lang": "ru",
+      "ver": "1.0.3",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Renovels",
+      "fileName": "Renovels",
+      "imageURL": "https://gitlab.com/shosetsuorg/extensions/-/raw/dev/icons/Renovels.png",
+      "id": 701,
+      "lang": "ru",
+      "ver": "1.0.1",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Novel.TL",
+      "fileName": "NovelTL",
+      "imageURL": "https://novel.tl/logo.png",
+      "id": 702,
+      "lang": "ru",
       "ver": "1.0.0",
       "libVer": "1.0.0",
       "md5": ""
     },
-{
-      "name": "Novelcake",
+    {
+      "name": "Novel Cake",
       "fileName": "novelcake",
       "imageURL": "https://novelcake.com/wp-content/uploads/2017/10/NOVELCAKE_2.png",
       "id": 75,
       "lang": "en",
-      "ver": "1.0.6",
+      "ver": "1.0.8",
       "libVer": "1.0.0",
       "md5": ""
     },
-{
+    {
       "name": "WuxiaWorld.Site",
       "fileName": "WuxiaWorldsite",
       "imageURL": "https://wuxiaworld.site/wp-content/uploads/2019/02/WuxiaWorld-e1567126455773.png",
@@ -580,13 +740,23 @@
       "libVer": "1.0.0",
       "md5": ""
     },
-{
+    {
       "name": "Sky-mtl(novel-gate)",
       "fileName": "Sky-mtl",
       "imageURL": "https://sky-mtl.com/wp-content/uploads/2017/10/10.png",
       "id": 77,
       "lang": "en",
-      "ver": "1.0.2",
+      "ver": "1.0.3",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Kemono",
+      "fileName": "Kemono",
+      "imageURL": "https://kemono.party/static/klogo.png",
+      "id": 93278,
+      "lang": "all",
+      "ver": "1.0.1",
       "libVer": "1.0.0",
       "md5": ""
     }
