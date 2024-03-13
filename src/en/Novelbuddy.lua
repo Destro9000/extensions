@@ -163,6 +163,7 @@ local function getPassage(chapterURL)
     local title = htmlElement:selectFirst("h1"):text()
     local ht = "<h1>" .. title .. "</h1>"
     local pTagList = map(htmlElement:select(".content-inner p"), text)
+    for k,v in pairs(pTagList) do ht = ht .. "<p><p>" .. v end
     return pageOfElem(Document(ht), true)
 end
 
@@ -273,14 +274,4 @@ return {
 }
 
 
-
-
-local function getPassage(chapterURL)
-    local htmlElement = GETDocument(chapterURL)
-    local title = htmlElement:selectFirst("h1"):text()
-    local ht = "<h1>" .. title .. "</h1>"
-    local pTagList = map(htmlElement:select(".content-inner p"), text)
-    for k,v in pairs(pTagList) do ht = ht .. "<p><p>" .. v end
-    return pageOfElem(Document(ht), true)
-end
 
