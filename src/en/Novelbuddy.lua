@@ -272,6 +272,3 @@ return {
     expandURL = expandURL,
     searchFilters = searchFilters
 }
-
-
-
