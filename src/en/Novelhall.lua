@@ -94,7 +94,10 @@ local searchFilters = {
 --- @return string @of chapter
 local function getPassage(chapterURL)
     local htmlElement = GETDocument(expandURL(chapterURL))
-    htmlElement = htmlElement:selectFirst("#htmlContent")
+    local title = htmlElement:selectFirst("h1"):text()
+    local ht = "<h1>" .. title .. "</h1>"
+    local pTagList = map(htmlElement:select(".content-inner br"), text)
+    for k,v in pairs(pTagList) do ht = ht .. "<p><p>" .. v end
     return pageOfElem(htmlElement, true)
 end
 
