@@ -1,4 +1,4 @@
--- {"id":1784,"ver":"1.0.5","libVer":"1.0.0","author":"Xanvial"}
+-- {"id":1784,"ver":"1.0.6","libVer":"1.0.0","author":"Xanvial"}
 
 local json = Require("dkjson")
 
@@ -16,7 +16,7 @@ local id = 1784
 --- Required.
 ---
 --- @type string
-local name = "Read Light Novel.app"
+local name = "Read Light Novel.com"
 
 --- Base URL of the extension. Used to open web view in Shosetsu.
 ---
