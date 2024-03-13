@@ -30,7 +30,7 @@ local baseURL = "https://readlitenovel.com/"
 --- Optional, Default is empty.
 ---
 --- @type string
-local imageURL = "https://readlightnovel.online/assets/new/images/lnrlogo.png"
+local imageURL = "https://readlitenovel.com/assets/new/images/new-lnrlogo.png"
 
 --- Shosetsu tries to handle cloudflare protection if this is set to true.
 ---
