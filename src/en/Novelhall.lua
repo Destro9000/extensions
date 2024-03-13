@@ -98,7 +98,7 @@ local function getPassage(chapterURL)
     local ht = "<h1>" .. title .. "</h1>"
     local pTagList = map(htmlElement:select(".content-inner br"), text)
     for k,v in pairs(pTagList) do ht = ht .. "<p><p>" .. v end
-    return pageOfElem(htmlElement, true)
+    return pageOfElem(ht, true)
 end
 
 --- @param data table
