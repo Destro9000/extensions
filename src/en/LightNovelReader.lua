@@ -23,7 +23,7 @@ local name = "Read Light Novel.app"
 --- Required.
 ---
 --- @type string
-local baseURL = "https://readlightnovel.app/"
+local baseURL = "https://readlightnovel.com/"
 --
 --- URL of the logo.
 ---
