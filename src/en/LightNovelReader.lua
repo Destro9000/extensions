@@ -16,7 +16,7 @@ local id = 1784
 --- Required.
 ---
 --- @type string
-local name = "Read Light Novel.com"
+local name = "Read Light Novel.app"
 
 --- Base URL of the extension. Used to open web view in Shosetsu.
 ---
