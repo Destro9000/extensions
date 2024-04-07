@@ -1,6 +1,6 @@
--- {"id":95564,"ver":"1.0.2","libVer":"1.0.0","author":"Confident-hate"}
+-- {"id":10121,"ver":"1.0.1","libVer":"1.0.0","author":"Confident-hate"}
 
-local baseURL = "https://novelusb.com"
+local baseURL = "https://binnovel.com"
 
 ---@param v Element
 local text = function(v)
@@ -11,7 +11,7 @@ end
 ---@param url string
 ---@param type int
 local function shrinkURL(url)
-    return url:gsub("https://novelusb.com/", "")
+    return url:gsub("https://binnovel.com/", "")
 end
 
 ---@param url string
@@ -234,10 +234,10 @@ local function getListing(name, inc, sortString)
 end
 
 return {
-    id = 95564,
-    name = "Novelusb",
+    id = 10121,
+    name = "Novelbin",
     baseURL = baseURL,
-    imageURL = "https://i.imgur.com/hq3eeIM.png",
+    imageURL = "https://i.imgur.com/KQOwfMt.png",
     hasSearch = true,
     listings = {
         getListing("Hot Novel", true, "/sort/top-hot"),
