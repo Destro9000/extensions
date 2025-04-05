@@ -1,4 +1,4 @@
--- {"id":95565,"ver":"1.0.0","libVer":"1.0.0","author":"Confident-hate"}
+-- {"id":95565,"ver":"1.0.3","libVer":"1.0.0","author":"Confident-hate"}
 
 local baseURL = "https://www.honeyfeed.fm"
 local HoneyfeedLogo = "https://www.honeyfeed.fm/assets/main/pages/home/logo-honey-bomon-70595250eae88d365db99bd83ecdc51c917f32478fa535a6b3b6cffb9357c1b4.png"
@@ -145,7 +145,7 @@ local function search(data)
     local queryContent = data[QUERY]
     local page = data[PAGE]
     local doc = GETDocument(baseURL .. "/search/novel_title?k=" .. queryContent .. "&page=" .. page)
-    return map(doc:selectFirst(".list-unit-novel"):select(".white.novel-unit-type-h.row"), function(v)
+    return map(doc:selectFirst(".list-unit-novel"):select(".novel-unit-type-h.row"), function(v)
         local imgURL = HoneyfeedLogo
         local imgElement = v:selectFirst("img")
         if imgElement then
@@ -164,6 +164,7 @@ end
 local function parseNovel(novelURL)
     local url = baseURL .. novelURL
     local document = GETDocument(url)
+    local chapterDocument = GETDocument(url.."/chapters")
     document:select("#wrap-button-remove-blur"):remove()
     local imgURL = HoneyfeedLogo
     local imgElement = document:selectFirst(".wrap-img-novel-mask img")
@@ -171,20 +172,20 @@ local function parseNovel(novelURL)
         imgURL = imgElement:attr("src")
     end
     return NovelInfo {
-        title = document:selectFirst("h1"):text(),
+        title = document:selectFirst("div.mt8"):text(),
         description = document:selectFirst(".wrap-novel-body"):text(),
         imageURL = imgURL,
         status = ({
             Ongoing = NovelStatus.PUBLISHING,
             Finished = NovelStatus.COMPLETED,
-        })[document:selectFirst(".table > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2)"):text()],
-        authors = { document:selectFirst("span.text-underline > a:nth-child(1)"):text()},
-        genres = map(document:select(".table > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) a"), text ),
+        })[document:selectFirst("span.pr8"):text()],
+        authors = { document:selectFirst("span.text-break-all.f14"):text()},
+        genres = map(document:selectFirst("div.wrap-novel-genres"):select("a.btn-genre-link btn"), text ),
         chapters = AsList(
-                map(document:select("#wrap-chapter .list-chapter .list-group-item"), function(v)
+                map(chapterDocument:select("#wrap-chapter .list-chapter .list-group-item a"), function(v)
                     return NovelChapter {
                         order = v,
-                        title = v:selectFirst(".mr5"):text() .. v:selectFirst(".chapter-name"):text(),
+                        title = "[" .. v:selectFirst("div.f12"):text() .. "] " .. v:selectFirst("div.text-bold"):text(),
                         link = baseURL .. v:attr("href")
                     }
                 end)
@@ -194,7 +195,7 @@ end
 
 local function parseListing(listingURL)
     local document = GETDocument(listingURL)
-    return map(document:selectFirst(".list-unit-novel"):select(".white.novel-unit-type-h.row"), function(v)
+    return map(document:selectFirst(".list-unit-novel"):select(".novel-unit-type-h.row"), function(v)
         local imgURL = HoneyfeedLogo
         local imgElement = v:selectFirst("img")
         if imgElement then
