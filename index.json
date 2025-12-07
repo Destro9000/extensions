@@ -586,7 +586,7 @@
       "fileName": "ReadFromNet",
       "imageURL": "https://static.readfrom.net//templates/gray_search/images/logo41.png",
       "lang": "en",
-      "ver": "1.0.0",
+      "ver": "1.1.4",
       "libVer": "1.0.0",
       "md5": "77b65acad98e23164e47412e27e0c4621d748af41ae26e29b11df7f1a942d859",
       "type": "LuaScript"
